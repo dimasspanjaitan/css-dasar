@@ -1,0 +1,14 @@
+body{
+    font-family: arial;
+}
+
+h1{
+    font-size: 100px;
+    color: lightblue;
+    text-align: center;
+}
+
+p{
+    line-height: 1,6em;
+    color: gray;
+}

@@ -1,0 +1,51 @@
+/* 
+    Properti pada Text Styling :
+    - color = memberi warna pada teks
+    - text-align = mengatur format paragraf/teks (rata kiri, rata tengah, rata kanan, rata kiri-kanan)
+    - text-indent = memberi indentasi (mejorok ke dalam) pada paragraf/teks
+    - text-decoration = mengatur dekorasi pada teks (garis bawah, teks yang dicoret)
+    - text-transform = mengubah jenis huruf menjadi huruf besar, kecil atau kapital (huruf besar di setiap awal kata)
+    - letter-spacing = mengatur spasi antar huruf
+    - word-spacing = mengatur spasi antar kata
+*/
+
+/* color, jenis value yaitu: nama warna, hexadecimal, rgb */
+/* text-align, jenis value yaitu: right, left, center, justify */
+/* text-indent, jenis value yaitu: px, % */
+/* text-decoration, jenis value yaitu: none, underline (garis bawah), overline (garis di atas tulisan), line-through (garis memotong tulisan) */
+/* text-transform, jenis value yaitu: none, lowercase, uppercase, capitalize */
+/* letter-spacing, jenis value yaitu: normal, px */
+/* word-spacing, jenis value yaitu: normal, px */
+
+h1{
+    font-size: 150px;
+    /* nama warna dalam bahasa inggris */
+    color: gold;
+    
+}
+
+h2{
+    font-size: 120px;
+    /* hexadecimal */
+    color: #123456;
+    text-decoration: line-through;
+}
+
+h3{
+    font-size: 80px;
+    /* rgb */
+    color: rgb(130, 23, 17);
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: lawngreen;
+}

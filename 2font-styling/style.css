@@ -1,0 +1,57 @@
+/* 
+    Property yang ada pada Font Styling :
+    - font-family = mengatur jenis font yang akan digunakan
+    - font-size = mengatur ukuran font
+    - font-weight = mengatur ketebalan font
+    - font-variant = mengubah font menjadi small caps
+    - font-style = mengubah font menjadi bercetak miring
+    - line-height = mengatur spasi antar bari
+*/
+
+/* 
+    font-family, jenis value yaitu: nama font, generic family
+    nama font dapat dibuat lebih dari 1
+    san-serif adalah tipe font yang tidak memiliki kait pada ujung fontnya
+*/
+
+/* font-size, jenis value yaitu: px, %, em */
+
+/* font-weight, jenis value yaitu: lighter, normal, 100-900, bold, bolder */
+
+/* font-variant, jenis value yaitu: normal, small-caps */
+
+/* 
+    font-style, jenis value yaitu: normal, italic, oblique 
+    italic -> mengubah font dari reguler ke italic jika ada
+    oblique -> memaksa font yang tidak memiliki jenis italic menjadi miring
+*/
+
+/* line-weight, jenis value yait: normal, px, em */
+
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    font-variant: small-caps ;
+    font-style: italic;
+}
+
+p{
+    /* serif adalah tipe font yang memiliki kait */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px ;
+}
+
+/* 
+    CSS font shorthand atau singkatan 
+    dengan aturan sebagai berikut:
+    
+    font: font-style font-variant font-weight font-size/line-height font-family;
+
+    property yang optional : font-style, font-variant, font-weight, lint-height
+    property yang wajib ada : font-size, font-family
+*/
+body{
+    font: italic normal bold 16px/18px helvetica, arial, sans-serif;
+}
