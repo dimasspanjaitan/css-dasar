@@ -1,0 +1,26 @@
+Pseudo Class adalah sebuah kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut.
+
+Type Pseudo Class:
+1. Yang berhubungan dengan link
+    - :link
+        style default pada sebuah link (a yang memiliki href)
+    - :hover
+        style ketika kursor mouse berada di atas sebuah link/elemen
+    - :active
+        style ketika sebuah link di-klik (keadaan aktif)
+    - :visited
+        style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama )
+
+2. Yang berhubungan dengan posisi elemen
+    - :fistt-child
+        memilih elemen pertama dari sebuah parent (element pembungkusnya)
+    - :last-child
+        memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+    - :nth-child(n)
+        memilih elemen ke-n dari sebuah parent (elemen pembungkusnya). n berarti urutan (1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil (odd) dan genap (even)
+
+3. Yang berhubungan dengan posisi elemen
+    - :first-of-type
+        memilih elemen pertama dari sebuah jenis/tipe tag
+    - :last-of-type
+        memilih elemen terakhir dari sebuah jenis/tipe tag

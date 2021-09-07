@@ -5,3 +5,40 @@
     - background-position = mengatur posisi gambar pada background
     - background-repeat = mengatur jenis pengulangan gambar pada background
 */
+
+/* body {
+    background-color: lightblue ;
+    background-image: url(images/bg1.png);
+    background-repeat: repeat-x;
+} */
+
+/* body{
+    background-color: white;
+    background-image: url(images/black.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+} */
+
+/* 
+    background-position:
+        - top left
+        - top center
+        - top right
+        - center left
+        - center center
+        - center right
+        - bottom left
+        - bottom center
+        - bottom right
+        - x% y%
+        - x-pos y-pos
+*/
+
+/* 
+    property background bisa disingkat menjadi:
+        background: color url() position repeat;
+*/
+
+body{
+    background: white url(images/black.png) bottom center no-repeat;
+}
